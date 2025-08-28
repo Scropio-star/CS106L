@@ -41,7 +41,7 @@ void printEndTime(const string& input) {
     finalHour %= 24;
 
     //output the time to the console
-    cout << setw(2) << setfill('0') << finalHour << ':' << setw(2)  << finalMinute <<'\n';
+    cout << setw(2) << setfill('0') << finalHour << ':' << setw(2) <<setfill('0') << finalMinute <<'\n';
 
 }
 
